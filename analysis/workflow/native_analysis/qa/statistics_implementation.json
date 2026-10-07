@@ -1,0 +1,6 @@
+{
+  "module": "analyze",
+  "original_source_sha256": "a0158aedcf27ed5ec8134a2765a8cbfc7c537706d3cc6d7a0b468f01404dbbe3",
+  "versioned_output": "analysis/workflow/native_analysis",
+  "scope": "Existing implementation; native-resolution inputs substituted; original output directory untouched"
+}

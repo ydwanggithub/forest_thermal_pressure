@@ -1,0 +1,7 @@
+{
+  "windows": "Northern Hemisphere windows of the 960-window observation-support sample",
+  "window_years": "the 21,386 identical window-years, restricted to Northern Hemisphere windows",
+  "shared": "both portions have >= 1 valid cell for the stated variables on the composite date",
+  "departure": "value on a date minus the same portion-year mean over its shared dates",
+  "source_sha256": "87ff2a6120990a68b731bc99aa5b8751f66aa47008c3426bec2a7047697bb0e6"
+}

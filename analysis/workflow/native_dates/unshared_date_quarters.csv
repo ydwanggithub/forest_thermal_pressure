@@ -1,0 +1,17 @@
+status,quarter,share,dates
+shared,1,0.26907865224765387,three_variable
+shared,2,0.23972055567172262,three_variable
+shared,3,0.2694575355783958,three_variable
+shared,4,0.22174325650222773,three_variable
+unshared,1,0.23724964192167383,three_variable
+unshared,2,0.2813902143721957,three_variable
+unshared,3,0.286407267605188,three_variable
+unshared,4,0.19495287610094247,three_variable
+shared,1,0.24972307771111724,LAI_day
+shared,2,0.2582554856224509,LAI_day
+shared,3,0.286360056600995,LAI_day
+shared,4,0.2056613800654369,LAI_day
+unshared,1,0.37001539454735066,LAI_day
+unshared,2,0.23027263246759697,LAI_day
+unshared,3,0.16437403784079058,LAI_day
+unshared,4,0.2353379351442618,LAI_day

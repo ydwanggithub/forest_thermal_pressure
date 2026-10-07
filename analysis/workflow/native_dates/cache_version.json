@@ -1,0 +1,16 @@
+{
+  "pipeline": "native-quality-composite-dates-v1",
+  "processing_sha256": "f608a0b5d96ba7fe1d3805f69c4bf2ef3a6c795a6851a06624a3bbe4e5f2c6b4",
+  "support_sha256": "d8fc363e83609ccd4500601af1809116a954f80bf5047630ba2780ec8eef20b2",
+  "crs": "EPSG:4326",
+  "transform": [
+    0.01,
+    0,
+    -180,
+    0,
+    -0.01,
+    84
+  ],
+  "batch_size": 128,
+  "project": null
+}

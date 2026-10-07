@@ -1,0 +1,16 @@
+{
+  "pooled_LAI_sd": 0.396174897415917,
+  "twoway_within_LAI_sd": 0.11030192627624495,
+  "ratio_within_to_pooled": 0.27841725206644397,
+  "per_window_sd_median": 0.08731892305619149,
+  "per_window_sd_p10": 0.04499079441935833,
+  "per_window_sd_p90": 0.15879799562546248,
+  "day_LAI_per_pooled_sd": -0.15980862433373577,
+  "day_LAI_per_within_sd": -0.044493478043517366,
+  "day_LAI_per_0p1_LAI": -0.040337897574051394,
+  "day_twoway_within_sd": 0.3790551498035139,
+  "night_LAI_per_pooled_sd": 0.04557667648158451,
+  "night_LAI_per_within_sd": 0.012689333024324083,
+  "night_LAI_per_0p1_LAI": 0.011504180799657447,
+  "night_twoway_within_sd": 0.880070757113828
+}

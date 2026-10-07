@@ -1,0 +1,4 @@
+band,west,east,south,north,n_region,window_id,lat,lon
+boreal,10,20,50,60,113,129_763,51.625,10.875
+temperate,0,10,40,50,137,156_738,44.875,4.625
+tropical,-50,-40,-30,-20,67,423_523,-21.875,-49.125

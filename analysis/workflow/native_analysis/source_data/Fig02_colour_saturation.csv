@@ -1,0 +1,5 @@
+variable,colour_limit,outside_colour_range
+dLAI_ep,1,73
+dET_ep,150,39
+day_adj,2,66
+night_adj,2,94

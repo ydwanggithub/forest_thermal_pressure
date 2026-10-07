@@ -1,0 +1,6 @@
+{
+  "module": "prepare_display",
+  "original_source_sha256": "6bac88c464f9f8bf1f689143ad30f7e15b70385fea1f1a165c3a1581ef671104",
+  "versioned_output": "analysis/workflow/native_analysis",
+  "scope": "Existing implementation; native-resolution inputs substituted; original output directory untouched"
+}

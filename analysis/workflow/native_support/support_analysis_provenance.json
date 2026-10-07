@@ -1,0 +1,70 @@
+{
+  "status": "passed",
+  "original_reconstruction": [
+    {
+      "variable": "LAI",
+      "n": 48200,
+      "max_abs_error": 4.440892098500626e-16,
+      "median_abs_error": 2.7755575615628914e-17,
+      "tolerance": 1e-10,
+      "outside_tolerance": 0
+    },
+    {
+      "variable": "LSTd",
+      "n": 48200,
+      "max_abs_error": 8.881784197001252e-16,
+      "median_abs_error": 0.0,
+      "tolerance": 1e-10,
+      "outside_tolerance": 0
+    },
+    {
+      "variable": "LSTn",
+      "n": 48200,
+      "max_abs_error": 1.7763568394002505e-15,
+      "median_abs_error": 0.0,
+      "tolerance": 1e-10,
+      "outside_tolerance": 0
+    }
+  ],
+  "support_rows": 96416,
+  "balanced_n_windows": 960,
+  "balanced_n_window_years": 21386,
+  "balanced_min_years": 20,
+  "specification": "Without modeled ET; corrected primary scales and fixed long-term climate; 5 degree block and year clustered covariance",
+  "original_same_sample": "Unrounded native-quality annual means, using identical window-year rows to the concurrent quarterly comparison",
+  "derived_temperature_columns": "LSTd, LSTn, day, night, mean and day_minus_night all recomputed from the relevant observation construction",
+  "BH_family": "All 24 coefficients in the two-outcome two-input sensitivity comparison",
+  "scope": "Annual composite-level concurrence within cells and equal-quarter weighting, not matching individual clear-sky days or dates between forest portions",
+  "cautions": "This changes seasonal weighting and sample; all comparisons reported on exactly the same eligible window-years; original full-sample estimates retained",
+  "fit_checks": [
+    {
+      "case": "original_same_sample",
+      "target": "day",
+      "within_r2": 0.04267087407698977,
+      "max_window_mean": 4.1495973324146006e-14,
+      "max_year_mean": 1.7246387494787206e-16
+    },
+    {
+      "case": "original_same_sample",
+      "target": "night",
+      "within_r2": 0.0004970368773500322,
+      "max_window_mean": 4.1495973324146006e-14,
+      "max_year_mean": 1.7246387494787206e-16
+    },
+    {
+      "case": "concurrent_quarter_balanced",
+      "target": "day",
+      "within_r2": 0.03609249455349606,
+      "max_window_mean": 4.150291221804991e-14,
+      "max_year_mean": 1.85438552920037e-16
+    },
+    {
+      "case": "concurrent_quarter_balanced",
+      "target": "night",
+      "within_r2": 0.06625101523497834,
+      "max_window_mean": 4.150291221804991e-14,
+      "max_year_mean": 1.85438552920037e-16
+    }
+  ],
+  "source_sha256": "499eb3f3eedbd4483986d42f6a6f7e4fd67d336138951ff7caf4e6463b8a8354"
+}

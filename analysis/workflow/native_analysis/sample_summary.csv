@@ -1,0 +1,8 @@
+dataset,rows,windows,start,end
+annual_panel,48200,2096,2003,2025
+longterm_windows,2096,2096,2003,2025
+balanced_windows,2090,2090,2003,2025
+common_MOD16_windows,2088,2088,2003,2023
+common_PML_windows,2088,2088,2003,2023
+matched_annual_panel,25806,1122,2003,2025
+matched_longterm_windows,1122,1122,2003,2025

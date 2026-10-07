@@ -1,0 +1,250 @@
+{
+  "anchors": "primary no-ET models reproduce Table S4; quarterly models reproduce process_FE baseline_full; own- and shared-date annual models reproduce date_matching_FE (common sample); Q1 snow model reproduces process_FE",
+  "trimming": {
+    "trim_3sd": {
+      "dropped_window_years": 692,
+      "share": 0.014356846473029046
+    },
+    "trim_top1pct": {
+      "dropped_window_years": 482,
+      "share": 0.01
+    },
+    "drop_top5pct_variable_windows": {
+      "dropped_window_years": 2414,
+      "share": 0.05008298755186722
+    }
+  },
+  "forest_loss": {
+    "portion_cumulative_2001_2025_median": 0.04242660984848376,
+    "window_years_recent_loss_ge_1pct": 0.15885892116182573,
+    "windows_cumulative_ge_10pct": 0.32013358778625955,
+    "loss_exclude_recent_1pct": {
+      "window_years": 40543,
+      "windows": 2088
+    },
+    "loss_exclude_cumulative_10pct": {
+      "window_years": 32771,
+      "windows": 1425
+    },
+    "loss_exclude_both": {
+      "window_years": 31257,
+      "windows": 1425
+    }
+  },
+  "date_dose": {
+    "low": {
+      "windows": 320,
+      "mean_unshared_share": 0.0908107126455941,
+      "min": 0.0009451795841209824,
+      "max": 0.1559121024882891
+    },
+    "middle": {
+      "windows": 320,
+      "mean_unshared_share": 0.19549177518623162,
+      "min": 0.15616626127943048,
+      "max": 0.23369364891050595
+    },
+    "high": {
+      "windows": 320,
+      "mean_unshared_share": 0.30272391909721125,
+      "min": 0.2341900654854029,
+      "max": 0.5622241211237241
+    }
+  },
+  "date_example": {
+    "window_id": "156_738",
+    "year": 2022,
+    "unshared": 0.1875,
+    "sample_median_unshared": 0.1842105263157895,
+    "own_contrast": {
+      "LAI": -0.07672167829000953,
+      "day": -1.5247430300372002,
+      "night": -0.1068348838464317
+    },
+    "shared_contrast": {
+      "LAI": -0.016967266304437123,
+      "day": -0.1160770816335912,
+      "night": 0.35816814374572914
+    },
+    "status_counts": {
+      "shared": 26,
+      "neither": 12,
+      "reference_only": 5,
+      "near_only": 1
+    }
+  },
+  "q1_snow_support": {
+    "TbC_-10_6": {
+      "window_years": 3095,
+      "snow_min": 7.002675498315227,
+      "snow_p05": 65.28477898160226,
+      "share_snow_lt5": 0.0,
+      "share_snow_lt1": 0.0
+    },
+    "TbC_6_8": {
+      "window_years": 3437,
+      "snow_min": 2.849366920292568,
+      "snow_p05": 22.471234871035282,
+      "share_snow_lt5": 0.004946173988943846,
+      "share_snow_lt1": 0.0
+    },
+    "TbC_8_10": {
+      "window_years": 11543,
+      "snow_min": 0.0921589048633794,
+      "snow_p05": 3.683818222825998,
+      "share_snow_lt5": 0.0741574980507667,
+      "share_snow_lt1": 0.010655808715238673
+    },
+    "TbC_10_13": {
+      "window_years": 11609,
+      "snow_min": 0.0,
+      "snow_p05": 0.10015977808294008,
+      "share_snow_lt5": 0.3626496683607546,
+      "share_snow_lt1": 0.1568610560771815
+    },
+    "TbC_13_40": {
+      "window_years": 11433,
+      "snow_min": 0.0,
+      "snow_p05": 0.0,
+      "share_snow_lt5": 0.8715997550949007,
+      "share_snow_lt1": 0.7106621184291088
+    },
+    "coolest_TbC_with_snow_lt5": 6.780457746324316,
+    "coolest_TbC_with_snow_lt1": 8.457133435765172,
+    "coef_snow0_TbC10": {
+      "estimate": -0.0665407268719171,
+      "se": 0.04230307740714906,
+      "lo95": -0.15427193979606235,
+      "hi95": 0.021190486052228133,
+      "p": 0.1300020694843619
+    },
+    "coef_snow0_TbC12.745": {
+      "estimate": -0.09208347321412122,
+      "se": 0.03581677476404231,
+      "lo95": -0.16636291777645273,
+      "hi95": -0.017804028651789705,
+      "p": 0.017429347130117703
+    },
+    "coef_snow0_TbC15": {
+      "estimate": -0.11306667649341814,
+      "se": 0.0333176049504195,
+      "lo95": -0.1821631600871586,
+      "hi95": -0.04397019289967767,
+      "p": 0.0026108701648467677
+    }
+  },
+  "grid_zero_crossings_TbC": {
+    "q0_day_estimate": [],
+    "q0_day_lo95": [],
+    "q0_day_hi95": [],
+    "q0_night_estimate": [
+      20.53651010181626
+    ],
+    "q0_night_lo95": [
+      17.170495240759678
+    ],
+    "q0_night_hi95": [],
+    "q1_day_estimate": [
+      15.226098742692354
+    ],
+    "q1_day_lo95": [
+      11.043642803211668
+    ],
+    "q1_day_hi95": [
+      18.728188771948535
+    ],
+    "q1_night_estimate": [
+      22.653186256745865
+    ],
+    "q1_night_lo95": [],
+    "q1_night_hi95": [],
+    "q2_day_estimate": [],
+    "q2_day_lo95": [],
+    "q2_day_hi95": [],
+    "q2_night_estimate": [
+      13.742255073698324
+    ],
+    "q2_night_lo95": [],
+    "q2_night_hi95": [],
+    "q3_day_estimate": [],
+    "q3_day_lo95": [],
+    "q3_day_hi95": [
+      24.0377154680147
+    ],
+    "q3_night_estimate": [
+      20.765049172680115
+    ],
+    "q3_night_lo95": [],
+    "q3_night_hi95": [],
+    "q4_day_estimate": [
+      7.657828163526371
+    ],
+    "q4_day_lo95": [],
+    "q4_day_hi95": [],
+    "q4_night_estimate": [
+      14.32238714519709
+    ],
+    "q4_night_lo95": [],
+    "q4_night_hi95": [
+      22.561025552825303
+    ]
+  },
+  "BH_family": "LAI, conditional LAI, forest-loss and absorbed-shortwave coefficients of the trimming, forest-loss, date dose-response and winter decomposition models (Table S11)",
+  "quarter_support_TbC": [
+    {
+      "quarter": 1,
+      "TbC_p2.5": 2.908656497254461,
+      "TbC_p5": 5.016270977873171,
+      "TbC_p25": 8.8087046724973,
+      "TbC_p50": 10.397240975776668,
+      "TbC_p75": 13.797178854073962,
+      "TbC_p95": 25.342381927921103,
+      "TbC_p97.5": 26.220697943479124
+    },
+    {
+      "quarter": 2,
+      "TbC_p2.5": 2.272210052297279,
+      "TbC_p5": 3.892288218705137,
+      "TbC_p25": 8.671810790218785,
+      "TbC_p50": 10.324268338809532,
+      "TbC_p75": 13.555300440499863,
+      "TbC_p95": 25.23616488562762,
+      "TbC_p97.5": 26.116575625102143
+    },
+    {
+      "quarter": 3,
+      "TbC_p2.5": 2.7978534466726486,
+      "TbC_p5": 4.141035438625327,
+      "TbC_p25": 8.700728042408215,
+      "TbC_p50": 10.285263935930232,
+      "TbC_p75": 13.396512633818872,
+      "TbC_p95": 24.99644651071288,
+      "TbC_p97.5": 26.04270064131405
+    },
+    {
+      "quarter": 4,
+      "TbC_p2.5": 2.553622670076166,
+      "TbC_p5": 3.9937731857974654,
+      "TbC_p25": 8.67092353143508,
+      "TbC_p50": 10.27399719258949,
+      "TbC_p75": 13.242056685049192,
+      "TbC_p95": 25.139447986067864,
+      "TbC_p97.5": 26.17704981466234
+    }
+  ],
+  "Tgroup_cuts_C": [
+    9.559170452651282,
+    13.411992637543824
+  ],
+  "q1_snow_scaling": {
+    "mean": 28.355744302253424,
+    "sd": 32.97872694448066
+  },
+  "forest_loss_definition": "Hansen GFC v1.13 lossyear; share of all 30 m pixels in each forest portion lost in the year; recent = year t or t-1 in either portion; cumulative = 2001-2025 sum, maximum of the two portions",
+  "sources_sha256": {
+    "native_robustness/forest_loss.csv": "e53b54f24b06b0bfd66bf083dcaa23aaa27794e2134759cc51d335233daf6d9f",
+    "native_process/process_panel.csv": "ce20775e63a087e2d4cfb9a149f65eaf49255ebe7ad74a343b32d2eb837c48cf",
+    "native_dates/dates_all.csv": "87ff2a6120990a68b731bc99aa5b8751f66aa47008c3426bec2a7047697bb0e6",
+    "native_analysis/annual_panel.csv": "04f1ec1ec45fdf18e12469e31131eca79fe8939c09f005908f8a6c2bf8a24a5c"
+  }
+}

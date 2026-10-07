@@ -1,0 +1,7 @@
+{
+  "original_frozen_sha256": "efe17b4e55af5f0c45f72d7b42ac16c447718d749eb2885a7b37dd99fdbb5ae1",
+  "original_main_features": 4208,
+  "added_outer_features": 1126,
+  "extended_sha256": "d8fc363e83609ccd4500601af1809116a954f80bf5047630ba2780ec8eef20b2",
+  "scope": "Original long-record cohort only; strict-ring eligibility from the existing static design; no new locations"
+}

@@ -1,0 +1,44 @@
+{
+  "anchor_max_abs_count_error": 1.8189894035458565e-12,
+  "identical_keys": 21386,
+  "common_keys": 21381,
+  "common_windows": 960,
+  "defined_window_years": {
+    "J_unmatched_composite": 21386,
+    "JD_unmatched_composite": 21386,
+    "J_matched1_composite": 21386,
+    "JD_matched1_composite": 21386,
+    "J_matched3_composite": 21386,
+    "JD_matched3_composite": 21386,
+    "J_matched5_composite": 21386,
+    "JD_matched5_composite": 21386,
+    "J_unmatched_quarter": 21386,
+    "JD_unmatched_quarter": 21386,
+    "J_matched1_quarter": 21381,
+    "JD_matched1_quarter": 21386,
+    "J_matched3_quarter": 21273,
+    "JD_matched3_quarter": 21386,
+    "J_matched5_quarter": 20457,
+    "JD_matched5_quarter": 21373,
+    "published_independent": 21386,
+    "published_concurrent_quarter": 21386
+  },
+  "date_overlap_median": {
+    "near_J_dates": 31.0,
+    "ref_J_dates": 34.0,
+    "shared_J_dates": 28.0,
+    "J_date_overlap": 0.8148148148148148,
+    "shared_JD_dates": 43.0,
+    "JD_date_overlap": 0.9782608695652174
+  },
+  "date_overlap_mean": {
+    "near_J_dates": 31.63069297671374,
+    "ref_J_dates": 33.69797998690732,
+    "shared_J_dates": 29.257084073693072,
+    "J_date_overlap": 0.8056861790887295,
+    "shared_JD_dates": 41.1116150752829,
+    "JD_date_overlap": 0.9732363215703933
+  },
+  "source_sha256": "87ff2a6120990a68b731bc99aa5b8751f66aa47008c3426bec2a7047697bb0e6",
+  "note": "Date-level zone means average valid cells within each composite date before averaging dates; the published concurrent construction averages cell-level quarter means. Matched rules use dates with at least m valid cells in both forest portions."
+}

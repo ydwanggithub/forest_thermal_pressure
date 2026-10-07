@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Unpacked copies of the compressed tables (restore with unpack_data.py)
+analysis/workflow/native_analysis/annual_panel.csv
+analysis/workflow/native_analysis/annual_raw.csv
+analysis/workflow/native_analysis/path_bootstrap.csv
+analysis/workflow/native_analysis/source_data/path_bootstrap.csv
+analysis/workflow/native_dates/dates_all.csv
+analysis/workflow/native_decomposition/support_all.csv
+analysis/workflow/native_process/process_all.csv
+analysis/workflow/native_support/support_all.csv
+data/longterm/annual_panel.csv
+
+# Earth Engine request caches created by the extraction scripts
+analysis/workflow/observation_support/
+analysis/workflow/**/cache/
+analysis/workflow/**/*_cache/
+
+# Logs and local outputs
+*.log
+analysis/workflow/**/*_log.txt
+
+# Credentials
+.env
+credentials.json
+*.key
+service_account*.json

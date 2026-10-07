@@ -1,0 +1,35 @@
+[
+  {
+    "band": "boreal",
+    "years": 23,
+    "n_overpass_years_max": 46,
+    "n_valid_forest_pixels": 1639,
+    "min_valid_required": 40,
+    "native_quality": true,
+    "common_grid_degrees": 0.01,
+    "raw_file": "boreal_LST_annual.npy",
+    "raw_sha256": "f84b6de57508b5a368081086dcb1a42cbe9b60d42cecf226e22e070660c46f01"
+  },
+  {
+    "band": "temperate",
+    "years": 23,
+    "n_overpass_years_max": 46,
+    "n_valid_forest_pixels": 1316,
+    "min_valid_required": 40,
+    "native_quality": true,
+    "common_grid_degrees": 0.01,
+    "raw_file": "temperate_LST_annual.npy",
+    "raw_sha256": "dc089f42dd188ec2568ba19ba6595539af9bf98548541b1b87f1ad3d93f4281d"
+  },
+  {
+    "band": "tropical",
+    "years": 23,
+    "n_overpass_years_max": 46,
+    "n_valid_forest_pixels": 439,
+    "min_valid_required": 40,
+    "native_quality": true,
+    "common_grid_degrees": 0.01,
+    "raw_file": "tropical_LST_annual.npy",
+    "raw_sha256": "518a2e373ee64a2acdf207f4114e06ea5e59d1e4b02563dc7bba770bebaa8275"
+  }
+]

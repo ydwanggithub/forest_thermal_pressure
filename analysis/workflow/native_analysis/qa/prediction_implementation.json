@@ -1,0 +1,6 @@
+{
+  "module": "machine_learning",
+  "original_source_sha256": "97032eedc39bc699e2860b5dd61a0431d937deb255d1aea23a2d6a9bf83fcfe8",
+  "versioned_output": "analysis/workflow/native_analysis",
+  "scope": "Existing implementation; native-resolution inputs substituted; original output directory untouched"
+}

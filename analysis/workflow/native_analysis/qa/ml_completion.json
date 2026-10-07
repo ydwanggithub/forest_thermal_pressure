@@ -1,0 +1,52 @@
+{
+  "status": "complete",
+  "primary_predictors": [
+    "UP",
+    "LAI",
+    "ET",
+    "ELEV",
+    "T",
+    "P",
+    "wind",
+    "dFOREST",
+    "FOREST_bak",
+    "log_pa_size",
+    "UP_trend",
+    "b_boreal",
+    "b_temperate",
+    "b_tropical"
+  ],
+  "annual_predictors": [
+    "UP",
+    "LAI",
+    "ET",
+    "ELEV",
+    "T",
+    "P",
+    "wind",
+    "dFOREST",
+    "FOREST_bak",
+    "log_pa_size",
+    "b_boreal",
+    "b_temperate",
+    "b_tropical",
+    "year"
+  ],
+  "spatial_cv": "GroupKFold with 5 degree block groups",
+  "temporal_validation": "train 2003 to 2020; predict 2021 to 2025",
+  "annual_window_leakage": false,
+  "XGB_parameters": {
+    "n_estimators": 600,
+    "learning_rate": 0.03,
+    "max_depth": 4,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "reg_lambda": 1.0,
+    "random_state": 42,
+    "n_jobs": 2
+  },
+  "reported_comparisons_only": [
+    "longterm",
+    "annual"
+  ]
+}

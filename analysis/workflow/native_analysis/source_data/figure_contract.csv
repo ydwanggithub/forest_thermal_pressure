@@ -1,0 +1,10 @@
+figure,scientific_role,composition
+1,Sampling and 23-year observation design,global map; paired-forest definition; four-product timeline; regional insets; equations
+2,Spatial thermal contrasts and their annual expression,four spatial maps with inset distributions; latitude summaries; three annual trajectories
+3,Drivers and nonlinear responses in long-record spatial contrasts,paired importance; six ALE panels; day/night SHAP beeswarms; blocked validation
+4,Canopy and ET response variation among forest windows,joint distribution and marginal densities; four centered ICE/PDP composites with endpoint insets
+5,Global canopy pathways over the 21-year product overlap,four SEMs with fit rings; canopy component densities; UP routes and interaction
+6,Geographic structure across latitude bands,three 23-year native-grid cases and CDFs; joint path densities; band contrasts; climate distributions
+7,Climate dependence across space and time,two joint response surfaces with marginals; spatial conditioned slopes; within-window climate interaction
+8,Climate-specific canopy and ET pathways,six homologous SEMs; three paired-product pathway distributions
+9,"Spatial controls, within-window observation construction and annual recurrence",long-term control comparison; same-sample annual LAI coefficients and climate interactions; two annual spatial series

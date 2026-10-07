@@ -1,0 +1,8 @@
+{
+  "anchors": "Without the urban term, annual and quarterly estimates reproduce Tables S4 and S8 to < 1e-9",
+  "UP_background": "window long-term near-minus-reference UP, standardized by the primary pooled UP mean and SD",
+  "UP_background_SD": 0.02029441735574575,
+  "corr_UPbackground_Tbackground": -0.11875158667765001,
+  "BH_family": "all LAI x UP interaction coefficients in urban_modulation_FE.csv",
+  "source_sha256": "8ced95263564839b778442cbe492e2083e6eb2c06402ab1c38820760baeb65a3"
+}

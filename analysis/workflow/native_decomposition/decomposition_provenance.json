@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "anchors": [
+    {
+      "variable": "LAI",
+      "independent_max_abs": 8.881784197001252e-16,
+      "independent_count_identical": true,
+      "quarter_equal_max_abs": 7.993605777301127e-15,
+      "quarter_equal_missing_identical": true
+    },
+    {
+      "variable": "day",
+      "independent_max_abs": 1.1368683772161603e-13,
+      "independent_count_identical": true,
+      "quarter_equal_max_abs": 5.684341886080801e-13,
+      "quarter_equal_missing_identical": true
+    },
+    {
+      "variable": "night",
+      "independent_max_abs": 1.1368683772161603e-13,
+      "independent_count_identical": true,
+      "quarter_equal_max_abs": 6.252776074688882e-13,
+      "quarter_equal_missing_identical": true
+    }
+  ],
+  "identical_keys": {
+    "windows": 960,
+    "window_years": 21386
+  },
+  "table_S5_reproduction": "A and E reproduce Table S5 estimates and standard errors to < 1e-9",
+  "cells": {
+    "balanced_cells_per_portion_mean": 57.481997568502756,
+    "day_balanced_cells_per_portion_mean": 81.28549050780884,
+    "mapped_cells_per_portion_mean": 83.38253997942579,
+    "day_only_eligible_windows_primary_frame": 1970,
+    "day_only_eligible_window_years": 45068
+  },
+  "BH_families": {
+    "decomposition": "all 72 coefficients in decomposition_FE.csv",
+    "quarter": "northern-hemisphere quarter models, separately for concurrent and independent quarter means"
+  },
+  "limits": "Composite-level concurrence within cells; not matched daily acquisitions or dates between forest portions; single-quarter covariates are annual; quarter models describe within-window annual covariation of one quarter.",
+  "source_sha256": "8ced95263564839b778442cbe492e2083e6eb2c06402ab1c38820760baeb65a3"
+}

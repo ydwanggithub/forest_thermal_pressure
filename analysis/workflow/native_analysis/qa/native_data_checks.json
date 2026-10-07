@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "frame_windows": 2104,
+  "final_windows": 2096,
+  "native_support_sha256": "499eb3f3eedbd4483986d42f6a6f7e4fd67d336138951ff7caf4e6463b8a8354",
+  "cohort_dropped": [
+    "125_1026",
+    "136_321",
+    "156_445",
+    "213_365",
+    "307_424",
+    "366_580",
+    "383_569",
+    "429_529"
+  ],
+  "ranges_checked": {
+    "LAI": [
+      0,
+      10
+    ]
+  },
+  "common_balanced_cell_counts_equal_for_all_three_variables": true,
+  "reason": "Correct native-resolution quality evaluation before grid transfer; all downstream fits must use this new version",
+  "original_data_and_results_preserved": true
+}

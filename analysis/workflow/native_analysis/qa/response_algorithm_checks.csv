@@ -1,0 +1,6 @@
+check,error,tolerance,passed
+ALE_linear_known_solution,1.3322676295501878e-15,1e-10,True
+mixed_contrast_known_interaction_0,2.265761274745218e-16,1e-10,True
+mixed_contrast_known_interaction_1.3,2.220446049250313e-16,1e-10,True
+additive_double_centered_surface_zero,1.0408340855860843e-15,1e-10,True
+brute_PDP_matches_sklearn,0.0,1e-10,True

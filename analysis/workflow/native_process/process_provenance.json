@@ -1,0 +1,62 @@
+{
+  "anchors": {
+    "LAI_reextraction_max_abs": {
+      "q1": 1.7763568394002505e-15,
+      "q2": 8.881784197001252e-16,
+      "q3": 1.7763568394002505e-15,
+      "q4": 8.881784197001252e-16
+    },
+    "table_S8_reproduced": true
+  },
+  "samples": {
+    "q1": {
+      "full": 41163,
+      "albedo": 40935,
+      "windows_albedo": 1802,
+      "snow_rows": 41117,
+      "snow_mean": 28.355744302253424,
+      "snow_sd": 32.97872694448066,
+      "snowfree_rows": 40900
+    },
+    "q2": {
+      "full": 38928,
+      "albedo": 38761,
+      "windows_albedo": 1719,
+      "snow_rows": 38882,
+      "snow_mean": 4.0499989173689475,
+      "snow_sd": 11.877567342183191,
+      "snowfree_rows": 38928
+    },
+    "q3": {
+      "full": 38183,
+      "albedo": 37562,
+      "windows_albedo": 1680,
+      "snow_rows": 38137,
+      "snow_mean": 0.05601165847983508,
+      "snow_sd": 0.6051390326554781,
+      "snowfree_rows": 38183
+    },
+    "q4": {
+      "full": 41782,
+      "albedo": 41615,
+      "windows_albedo": 1829,
+      "snow_rows": 41736,
+      "snow_mean": 12.112365967878516,
+      "snow_sd": 17.961387710679116,
+      "snowfree_rows": 41777
+    }
+  },
+  "definitions": {
+    "dAlb": "near minus reference white-sky shortwave albedo, percentage points",
+    "dSWabs": "-SW x dAlb, W m-2; SW is ERA5-Land downward solar radiation of the window-quarter",
+    "S": "ERA5-Land snow cover of the window-quarter, standardized within the quarter sample",
+    "dSnow": "near minus reference MOD10A2 snow frequency (share of valid 8-day periods with snow), percentage points",
+    "Tgroup": "background temperature below -0.5, within +/-0.5 and above +0.5 primary SD (descriptives only)",
+    "LAIsf": "LAI contrast from good retrievals without the snow/ice flag, primary LAI scale"
+  },
+  "BH_family": "LAI, conditional LAI, dSWabs and LAI x S coefficients of all non-anchor models",
+  "sources_sha256": {
+    "process_all.csv": "f5f8f547c0292b261a2b6b5af14907a9b5efc343add641844835f36ee35bddc0",
+    "support_all.csv": "8ced95263564839b778442cbe492e2083e6eb2c06402ab1c38820760baeb65a3"
+  }
+}

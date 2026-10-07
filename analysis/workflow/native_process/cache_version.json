@@ -1,0 +1,16 @@
+{
+  "pipeline": "native-quality-process-quarterly-v1",
+  "processing_sha256": "02d30afb74bed88b3f4a6c73012c291528694ab722a8243f7b53b9d4f2f36545",
+  "support_sha256": "d8fc363e83609ccd4500601af1809116a954f80bf5047630ba2780ec8eef20b2",
+  "crs": "EPSG:4326",
+  "transform": [
+    0.01,
+    0,
+    -180,
+    0,
+    -0.01,
+    84
+  ],
+  "batch_size": 256,
+  "project": null
+}

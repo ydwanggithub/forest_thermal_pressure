@@ -1,0 +1,4 @@
+case,target,model,validation,n,n_windows,group,r2,rmse,mae
+longterm,day,XGB,5_degree_spatial_block,2096,2096,global,0.22502831973497706,0.6837694029435087,0.47700347347413424
+longterm,day,RF,5_degree_spatial_block,2096,2096,global,0.25741423104367556,0.6693296411455781,0.46216751943326806
+longterm,day,climate_linear,5_degree_spatial_block,2096,2096,global,0.1820705399442205,0.702464970672029,0.4792733720066591

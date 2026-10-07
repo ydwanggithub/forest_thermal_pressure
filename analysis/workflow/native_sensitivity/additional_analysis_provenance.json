@@ -1,0 +1,158 @@
+{
+  "created_utc": "2026-10-04T12:10:44.546201+00:00",
+  "n_windows": 2096,
+  "n_boot": 1000,
+  "method": "Same 2096 windows, pooled primary scales, identical spatial-block resampling across equations and specifications",
+  "interpretation": "Conditional association and path algebra; not causal mediation; exploratory sensitivity",
+  "additional_FE_BH_family": "All 24 coefficients from two outcomes and two samples without ET; original 46-test family unchanged",
+  "scales": {
+    "UP": {
+      "mean": 0.020190792516583917,
+      "sd": 0.02029441735574575
+    },
+    "LAI": {
+      "mean": -0.0392335633337251,
+      "sd": 0.396174897415917
+    },
+    "ET": {
+      "mean": -4.338234237231064,
+      "sd": 48.2180181114142
+    },
+    "ELEV": {
+      "mean": -55.0154882962493,
+      "sd": 122.60007091620318
+    },
+    "T": {
+      "mean": 285.89487189950887,
+      "sd": 6.205380203506419
+    },
+    "P": {
+      "mean": 1.1091604777026565,
+      "sd": 0.6982356708293004
+    },
+    "wind": {
+      "mean": 0.805587198988406,
+      "sd": 0.5245857850486324
+    },
+    "day": {
+      "mean": 0.1760922990823232,
+      "sd": 0.7769093936423218
+    },
+    "night": {
+      "mean": -0.05496234786561567,
+      "sd": 0.941975819358215
+    },
+    "interaction_mean": -0.014262063064526884,
+    "interaction_sd": 1.236386616615863,
+    "dFOREST": {
+      "mean": -0.00946811720875154,
+      "sd": 0.07057062143491998
+    },
+    "FOREST_bak": {
+      "mean": 0.8866143572765975,
+      "sd": 0.09298346230126332
+    }
+  },
+  "diagnostics": [
+    {
+      "specification": "original",
+      "ET_terms": [
+        "UP",
+        "LAI"
+      ],
+      "LST_terms": [
+        "UP",
+        "LAI",
+        "ET",
+        "ELEV",
+        "UPxLAI"
+      ],
+      "ET_condition_number": 1.0143721394131242,
+      "LST_condition_number": 2.4339871433014366
+    },
+    {
+      "specification": "forest_cover",
+      "ET_terms": [
+        "UP",
+        "LAI",
+        "dFOREST",
+        "FOREST_bak"
+      ],
+      "LST_terms": [
+        "UP",
+        "LAI",
+        "ET",
+        "ELEV",
+        "UPxLAI",
+        "dFOREST",
+        "FOREST_bak"
+      ],
+      "ET_condition_number": 1.7680348961362948,
+      "LST_condition_number": 2.7880553855381214
+    },
+    {
+      "specification": "forest_cover_climate",
+      "ET_terms": [
+        "UP",
+        "LAI",
+        "dFOREST",
+        "FOREST_bak",
+        "T",
+        "P",
+        "wind"
+      ],
+      "LST_terms": [
+        "UP",
+        "LAI",
+        "ET",
+        "ELEV",
+        "UPxLAI",
+        "dFOREST",
+        "FOREST_bak",
+        "T",
+        "P",
+        "wind"
+      ],
+      "ET_condition_number": 1.854494727776694,
+      "LST_condition_number": 2.838673655809488
+    }
+  ],
+  "FE_checks": [
+    {
+      "case": "original",
+      "target": "day",
+      "within_r2": 0.0204055753683704,
+      "window_mean_max": 2.6307458626987403e-16,
+      "year_mean_max": 3.437665758500604e-16
+    },
+    {
+      "case": "original",
+      "target": "night",
+      "within_r2": 0.00039096602509247624,
+      "window_mean_max": 2.6307458626987403e-16,
+      "year_mean_max": 3.437665758500604e-16
+    },
+    {
+      "case": "matched",
+      "target": "day",
+      "within_r2": 0.017660218768902003,
+      "window_mean_max": 4.827056628805028e-16,
+      "year_mean_max": 2.292679811102039e-16
+    },
+    {
+      "case": "matched",
+      "target": "night",
+      "within_r2": 0.00052474618537246,
+      "window_mean_max": 4.827056628805028e-16,
+      "year_mean_max": 2.292679811102039e-16
+    }
+  ],
+  "inputs": {
+    "longterm_windows.csv": "fcae2321cb827bd0c449defe9e9c582f251d605f9c334409b4f30ce7c46930bd",
+    "annual_panel.csv": "04f1ec1ec45fdf18e12469e31131eca79fe8939c09f005908f8a6c2bf8a24a5c",
+    "matched_longterm_windows.csv": "ec9dff8fdb44f1c9ffc8a03929c4dc3cca8260e5fe1eeb218b4234637ee7b7bf",
+    "matched_annual_panel.csv": "f5001de04fd8e9897d19c4fea5931e0f7446b2924b169bbfd5a51f71120d93ee",
+    "scaling.json": "72a724861777352db58ef2f39e272ac39715026608417162cda9a2e6df350098",
+    "path_effects.csv": "acf32fbb4a36a0ae06108a35b726ce3c906bf14885fb1e972e97a144ceb7b3e2"
+  }
+}

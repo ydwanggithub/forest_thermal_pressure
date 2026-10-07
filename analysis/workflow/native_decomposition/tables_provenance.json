@@ -1,0 +1,289 @@
+{
+  "unshared_three_variable_date_fraction_mean": 0.19431382091127047,
+  "unshared_LAI_day_date_fraction_mean": 0.026763678429606697,
+  "three_variable_dates_near_mean": 31.63069297671374,
+  "three_variable_dates_ref_mean": 33.69797998690732,
+  "three_variable_dates_shared_mean": 29.257084073693072,
+  "LAI_day_dates_shared_mean": 41.1116150752829,
+  "matched_m3_m5": {
+    "J_matched3_quarter": -0.0979144822282156,
+    "J_matched5_quarter": -0.0856908495546794,
+    "JD_matched3_quarter": -0.2049401162720876,
+    "JD_matched5_quarter": -0.2111600135618861
+  },
+  "unshared_date_departures_north": [
+    {
+      "status": "shared",
+      "quarter": 1,
+      "LAI_departure": -0.8617,
+      "day_departure": -7.337,
+      "night_departure": -6.3712,
+      "dates": "three_variable",
+      "LAID_departure": null,
+      "dayD_departure": null
+    },
+    {
+      "status": "shared",
+      "quarter": 2,
+      "LAI_departure": 0.5699,
+      "day_departure": 4.9577,
+      "night_departure": 2.3957,
+      "dates": "three_variable",
+      "LAID_departure": null,
+      "dayD_departure": null
+    },
+    {
+      "status": "shared",
+      "quarter": 3,
+      "LAI_departure": 0.8187,
+      "day_departure": 7.1974,
+      "night_departure": 6.1538,
+      "dates": "three_variable",
+      "LAID_departure": null,
+      "dayD_departure": null
+    },
+    {
+      "status": "shared",
+      "quarter": 4,
+      "LAI_departure": -0.5653,
+      "day_departure": -5.2026,
+      "night_departure": -2.3367,
+      "dates": "three_variable",
+      "LAID_departure": null,
+      "dayD_departure": null
+    },
+    {
+      "status": "unshared",
+      "quarter": 1,
+      "LAI_departure": -1.0527,
+      "day_departure": -7.5103,
+      "night_departure": -6.8378,
+      "dates": "three_variable",
+      "LAID_departure": null,
+      "dayD_departure": null
+    },
+    {
+      "status": "unshared",
+      "quarter": 2,
+      "LAI_departure": 0.5598,
+      "day_departure": 5.4819,
+      "night_departure": 2.5411,
+      "dates": "three_variable",
+      "LAID_departure": null,
+      "dayD_departure": null
+    },
+    {
+      "status": "unshared",
+      "quarter": 3,
+      "LAI_departure": 0.9217,
+      "day_departure": 8.4329,
+      "night_departure": 6.9429,
+      "dates": "three_variable",
+      "LAID_departure": null,
+      "dayD_departure": null
+    },
+    {
+      "status": "unshared",
+      "quarter": 4,
+      "LAI_departure": -0.7046,
+      "day_departure": -4.8482,
+      "night_departure": -2.2408,
+      "dates": "three_variable",
+      "LAID_departure": null,
+      "dayD_departure": null
+    },
+    {
+      "status": "shared",
+      "quarter": 1,
+      "LAI_departure": null,
+      "day_departure": null,
+      "night_departure": null,
+      "dates": "LAI_day",
+      "LAID_departure": -0.9759,
+      "dayD_departure": -7.7112
+    },
+    {
+      "status": "shared",
+      "quarter": 2,
+      "LAI_departure": null,
+      "day_departure": null,
+      "night_departure": null,
+      "dates": "LAI_day",
+      "LAID_departure": 0.5366,
+      "dayD_departure": 4.4002
+    },
+    {
+      "status": "shared",
+      "quarter": 3,
+      "LAI_departure": null,
+      "day_departure": null,
+      "night_departure": null,
+      "dates": "LAI_day",
+      "LAID_departure": 0.8355,
+      "dayD_departure": 6.9233
+    },
+    {
+      "status": "shared",
+      "quarter": 4,
+      "LAI_departure": null,
+      "day_departure": null,
+      "night_departure": null,
+      "dates": "LAI_day",
+      "LAID_departure": -0.6522,
+      "dayD_departure": -5.8021
+    },
+    {
+      "status": "unshared",
+      "quarter": 1,
+      "LAI_departure": null,
+      "day_departure": null,
+      "night_departure": null,
+      "dates": "LAI_day",
+      "LAID_departure": -1.6661,
+      "dayD_departure": -14.7953
+    },
+    {
+      "status": "unshared",
+      "quarter": 2,
+      "LAI_departure": null,
+      "day_departure": null,
+      "night_departure": null,
+      "dates": "LAI_day",
+      "LAID_departure": -0.3852,
+      "dayD_departure": 0.8009
+    },
+    {
+      "status": "unshared",
+      "quarter": 3,
+      "LAI_departure": null,
+      "day_departure": null,
+      "night_departure": null,
+      "dates": "LAI_day",
+      "LAID_departure": -0.276,
+      "dayD_departure": 2.6981
+    },
+    {
+      "status": "unshared",
+      "quarter": 4,
+      "LAI_departure": null,
+      "day_departure": null,
+      "night_departure": null,
+      "dates": "LAI_day",
+      "LAID_departure": -1.5048,
+      "dayD_departure": -11.0312
+    }
+  ],
+  "unshared_date_quarters_north": [
+    {
+      "status": "shared",
+      "quarter": 1,
+      "share": 0.2691,
+      "dates": "three_variable"
+    },
+    {
+      "status": "shared",
+      "quarter": 2,
+      "share": 0.2397,
+      "dates": "three_variable"
+    },
+    {
+      "status": "shared",
+      "quarter": 3,
+      "share": 0.2695,
+      "dates": "three_variable"
+    },
+    {
+      "status": "shared",
+      "quarter": 4,
+      "share": 0.2217,
+      "dates": "three_variable"
+    },
+    {
+      "status": "unshared",
+      "quarter": 1,
+      "share": 0.2372,
+      "dates": "three_variable"
+    },
+    {
+      "status": "unshared",
+      "quarter": 2,
+      "share": 0.2814,
+      "dates": "three_variable"
+    },
+    {
+      "status": "unshared",
+      "quarter": 3,
+      "share": 0.2864,
+      "dates": "three_variable"
+    },
+    {
+      "status": "unshared",
+      "quarter": 4,
+      "share": 0.195,
+      "dates": "three_variable"
+    },
+    {
+      "status": "shared",
+      "quarter": 1,
+      "share": 0.2497,
+      "dates": "LAI_day"
+    },
+    {
+      "status": "shared",
+      "quarter": 2,
+      "share": 0.2583,
+      "dates": "LAI_day"
+    },
+    {
+      "status": "shared",
+      "quarter": 3,
+      "share": 0.2864,
+      "dates": "LAI_day"
+    },
+    {
+      "status": "shared",
+      "quarter": 4,
+      "share": 0.2057,
+      "dates": "LAI_day"
+    },
+    {
+      "status": "unshared",
+      "quarter": 1,
+      "share": 0.37,
+      "dates": "LAI_day"
+    },
+    {
+      "status": "unshared",
+      "quarter": 2,
+      "share": 0.2303,
+      "dates": "LAI_day"
+    },
+    {
+      "status": "unshared",
+      "quarter": 3,
+      "share": 0.1644,
+      "dates": "LAI_day"
+    },
+    {
+      "status": "unshared",
+      "quarter": 4,
+      "share": 0.2353,
+      "dates": "LAI_day"
+    }
+  ],
+  "sources": {
+    "native_decomposition/decomposition_FE.csv": "a4c6c0400535defe5e2fd6801689d0b1af0ecd021e25d3f302b0a17ff1deed7f",
+    "native_decomposition/quarter_FE_full_cohort.csv": "0eaa296bc202c3a4e7ae0f71dc7aa72fbfb9eca8e34ccec4fd95b02623133a1f",
+    "native_decomposition/conditional_slopes.csv": "74f3a2aa8900b6c9363e5c26482b40dd6cd082917e9d313293b6044f2e964cc6",
+    "native_dates/date_matching_FE.csv": "b72ca957e4428b1d14b39413753707319dabc5134452beffd65c18555692641d",
+    "native_dates/date_matching_quarter_FE.csv": "9a8a3a3e19a0885fd14ba051203ba5980f11dc652eda810eaf9d7aef0b48abc0",
+    "native_dates/date_overlap.csv": "ff946a043788113401a2875828fafdae7459ad46deeb6b31b1c363318aac3cb4",
+    "native_dates/conditional_slopes.csv": "c0756d4ed06e8c7d2b0f3371da100d59f5b5ba54d221df2e8cdb17a1cae294e4",
+    "native_dates/unshared_date_departures.csv": "ee7b8d79e4c7f08034e9f496c1e05938fab4264e53563fb9d5293cf82482edb7",
+    "native_dates/unshared_date_quarters.csv": "5ac081b9b098e1383ff71e70ea5026a531a3f616e1448934dd81b75698440fa3",
+    "native_sensitivity/within_window_without_ET.csv": "07b6f77d39c1f319e7e8150906f6f26071e16ee2d43da0e1e02bfa21f16056cb",
+    "native_decomposition/urban_modulation_FE.csv": "2f2b24e153e4fa53fb6e09772e5c6aadb4e392fe42b005dbcc5726a65b1d6cce",
+    "native_process/process_FE.csv": "5217f36e8dbf59737a3512b4bc44cda5be78b12414bd169b58b7357599633898",
+    "native_robustness/robustness_FE.csv": "bf08ebc11664c5effeb0ad53ff217943cd79413f3057006d64b742da8c5df997"
+  }
+}

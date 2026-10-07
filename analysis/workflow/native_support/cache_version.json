@@ -1,0 +1,15 @@
+{
+  "pipeline": "native-quality-common-grid-v1",
+  "processing_sha256": "95ce8ad4e498e92d3e902f17c4d874790cbe751fe89f0feb4361579bd2e40e5e",
+  "support_sha256": "d8fc363e83609ccd4500601af1809116a954f80bf5047630ba2780ec8eef20b2",
+  "crs": "EPSG:4326",
+  "transform": [
+    0.01,
+    0,
+    -180,
+    0,
+    -0.01,
+    84
+  ],
+  "batch_size": 256
+}
